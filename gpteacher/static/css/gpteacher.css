@@ -1,0 +1,58 @@
+/* CSS for GPTeacherXBlock */
+
+.gpteacher {
+    width: 100%;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px gray;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .chat-history {
+    height: 250px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+  }
+  
+  .chat-message {
+    width: fit-content;
+    color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    text-align: right;
+    margin-left: auto;
+    background-color: #3366cc;
+  }
+  
+  .gpt-message {
+    text-align: left;
+    margin-right: auto;
+    background-color: cadetblue;
+  }
+  
+  .user-input {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .send-button {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #3366cc;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
